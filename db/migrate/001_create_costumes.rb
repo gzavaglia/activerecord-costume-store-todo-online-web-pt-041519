@@ -11,6 +11,9 @@
 class CreateCostumes < ActiveRecord::Migration[5.1]
   create_table :costumes do |cols|
     cols.string :name,
-    
+    cols.float :price
+    cols.string :image_url
+    cols.string :size
+    cols.timestamps
   end
 end
