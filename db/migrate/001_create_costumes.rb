@@ -9,5 +9,8 @@
 # value types according to the spec
 
 class CreateCostumes < ActiveRecord::Migration[5.1]
-  create_table 
+  create_table :costumes do |cols|
+    cols.string :name,
+    
+  end
 end
