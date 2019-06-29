@@ -11,4 +11,3 @@ class CreateCostumeStores < ActiveRecord::Migration[5.0]
     end
   end
 end
-© 2019 GitHub, Inc.
